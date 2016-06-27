@@ -1,1 +1,4 @@
+//工程配置
+//表明项目下有几个module
 include ':app'
+

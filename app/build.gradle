@@ -1,16 +1,18 @@
-apply plugin: 'com.android.application'
-
+//android配置文件
+apply plugin: 'com.android.application' //表示此模块是一个app模块
+//apply plugin: 'com.android.library'表明是一个android library
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    buildToolsVersion "24.0.0"  //基于构建工具此版本构建
 
     defaultConfig {
         applicationId "com.hh.happybaby"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        versionCode 1   //版本号
+        versionName "1.0"   //版本名
     }
+    //构建类型，常用的release，debug
     buildTypes {
         release {
             minifyEnabled false
@@ -18,9 +20,17 @@ android {
         }
     }
 }
+repositories {
+    maven { url "https://jitpack.io" }
+}
 
+//不属于android专有配置
+//定义了该module的依赖
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.squareup:android-times-square:1.6.5@aar'
+    compile 'com.github.Todd-Davies:ProgressWheel:1.0'
 }
+
