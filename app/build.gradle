@@ -32,5 +32,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.squareup:android-times-square:1.6.5@aar'
     compile 'com.github.Todd-Davies:ProgressWheel:1.0'
+    compile 'com.github.linger1216:labelview:v1.1.0'
 }
 
