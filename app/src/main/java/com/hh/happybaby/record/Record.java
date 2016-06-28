@@ -6,4 +6,5 @@ package com.hh.happybaby.record;
 public class Record {
     private int uuuid;
     private int xmc;
+    private int alisa;
 }
