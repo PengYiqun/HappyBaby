@@ -22,6 +22,7 @@ android {
 }
 repositories {
     maven { url "https://jitpack.io" }
+    jcenter()
 }
 
 //不属于android专有配置
@@ -33,5 +34,6 @@ dependencies {
     compile 'com.squareup:android-times-square:1.6.5@aar'
     compile 'com.github.Todd-Davies:ProgressWheel:1.0'
     compile 'com.github.linger1216:labelview:v1.1.0'
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
 }
 
