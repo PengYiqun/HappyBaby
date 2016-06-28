@@ -7,4 +7,5 @@ public class Record {
     private int uuuid;
     private int xmc;
     private int alisa;
+    private int aaa;
 }
