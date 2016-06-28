@@ -1,3 +1,26 @@
 <resources>
+    <!--每个人在自己区域内编码-->
+    <!-- liuhuan start-->
+
+
+
+    <!-- liuhuan end-->
+    <!-- pengyiqun start-->
+
+
+    <!-- pengyiqun end-->
+    <!-- tangliwen start-->
+
+
+
+
+    <!-- tangliwen end-->
+    <!-- xumuchen start-->
+
+
+
+    <!-- xumuchen end-->
+    <!-- 贺逸峰 start-->
     <string name="app_name">HappyBaby</string>
+    <!-- 贺逸峰 end-->
 </resources>
