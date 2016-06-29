@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+
+        <TableRow
+            android:id="@+id/selectKnowledge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/rangeKnowledge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBlue"
+                android:textColor="@color/selectColor"
+                android:onClick="onRangeKnowledge"
+                android:text="阶段知识"
+                android:layout_weight="1" />
+
+            <Button style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/diseaseKnowledge"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:onClick="onDiseaseKnowledge"
+                android:text="病症知识"
+                android:layout_weight="1" />
+        </TableRow>
+        <ListView
+            android:id="@+id/lisKnowledge"
+            android:layout_below="@id/rangeKnowledge"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </TableLayout>
+</LinearLayout>

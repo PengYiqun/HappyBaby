@@ -11,8 +11,9 @@
 
     <!-- pengyiqun end-->
     <!-- tangliwen start-->
-
-
+    <color name="buttonBlue">#5b9bd5</color>
+    <color name="textColor">#444444</color>
+    <color name="selectColor">#ffffff</color>
 
 
     <!-- tangliwen end-->
