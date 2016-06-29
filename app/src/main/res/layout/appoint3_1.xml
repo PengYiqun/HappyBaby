@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--预防针预约主界面，每个Item里存放一条预约记录，包括时间地点内容等信息-->
+<?xml version="1.0" encoding="utf-8"?><!--医院预约主界面，每个Item是一个医院，Item里的子Item是该医院里的医生，
+每个医生Item里包含姓名、职称、主治方向、照片等信息（如界面图5-7）-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,15 +28,15 @@
                 android:textColor="@color/colorBlack"
                 android:layout_weight="1"
                 android:text="体检预约"
-                android:layout_marginLeft="0dip"/>
+                android:layout_marginLeft="0dip" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:background="@color/colorWhite"
+                android:textColor="@color/colorBlack"
                 android:layout_weight="1"
                 android:text="预防针预约" />
 
@@ -45,22 +46,37 @@
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorWhite"
-                android:textColor="@color/colorBlack"
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="看病预约"
-                android:layout_marginRight="0dip"/>
+                android:layout_marginRight="0dip" />
 
         </TableRow>
 
-        <ListView android:id="@+id/listView"
+        <!--<ListView android:id="@+id/listView"
             android:layout_centerHrizontal="true"
             android:layout_below="@+id/button3"
-            android:maxLines="3"
+            android:maxLines="1"
             android:listSelector="@color/colorLBlue"
             android:layout_marginLeft="5dip"
             android:layout_marginRight="5dip"
-            android:ellipsize="end"/>
+            android:ellipsize="end"/>-->
+
+        <ExpandableListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#00000000"
+            android:listSelector="@color/colorLBlue"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip" />
+
+        <ExpandableListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandableListView" />
 
     </TableLayout>
 </RelativeLayout>

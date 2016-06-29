@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!--医院预约子界面，从主界面选择一个子Item后进入该界面，医院和医生信息直接显示
+主界面里选择的医生信息，病症可输不超过5行，如界面图5-7-1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="日期"
+        android:id="@+id/textView2"
+        android:layout_weight="0"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="医院"
+        android:id="@+id/textView3"
+        android:layout_weight="0"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="医生"
+        android:id="@+id/textView4"
+        android:layout_weight="0"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="病症"
+        android:id="@+id/textView5"
+        android:layout_weight="0"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <EditText
+        android:id="@+id/editView"
+        android:background="@drawable/shape_xmc"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="-220dip"
+        android:hint="请输入年/月/日/时间" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:background="@color/colorWhite"
+        android:layout_height="50dip"
+        android:layout_width="200dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="10dip"
+        android:text="重庆市儿童医院"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:background="@color/colorWhite"
+        android:layout_height="50dip"
+        android:layout_width="200dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="10dip"
+        android:text="XX主任医师"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editView3"
+        android:background="@drawable/shape_xmc"
+        android:layout_width="200dip"
+        android:layout_height="150dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="20dip"
+        android:hint="请输入病症描述"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorBBlack"
+        android:text="确定"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dip" />
+
+</LinearLayout>
