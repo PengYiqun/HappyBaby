@@ -8,7 +8,7 @@
     <!-- liuhuan end-->
     <!-- pengyiqun start-->
 
-
+<color name="footer">#5B9Bd5</color>
     <!-- pengyiqun end-->
     <!-- tangliwen start-->
     <color name="buttonBlue">#5b9bd5</color>
@@ -18,9 +18,11 @@
 
     <!-- tangliwen end-->
     <!-- xumuchen start-->
-
-
-
+    <color name="colorBlue">#5B9BD5</color>
+    <color name="colorLBlue">#99CCFF</color>
+    <color name="colorBlack">#444444</color>
+    <color name="colorBBlack">#000000</color>>
+    <color name="colorWhite">#FFFFFF</color>
     <!-- xumuchen end-->
 
 

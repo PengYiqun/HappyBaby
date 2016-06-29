@@ -14,43 +14,111 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="welcome"
-        android:textSize="20dp"
+        android:text="@string/welcome"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:lineSpacingExtra="7dp"
         android:layout_marginTop="20dp"
         android:id="@+id/textView" />
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:layout_marginBottom="40dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_liuhuan"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_below="@+id/textView">
 
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="10dp"
-                android:id="@+id/username" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/username"
+            android:textSize="25dp"
+            android:id="@+id/username"/>
 
-            <EditText
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_liuhuan"
+            android:layout_toRightOf="@+id/username"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/username_input"
+            android:id="@+id/username_input"/>
 
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/password"
+            android:textSize="25dp"
+            android:layout_below="@+id/username"
+            android:id="@+id/password"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_liuhuan"
+            android:layout_toRightOf="@+id/password"
+            android:layout_below="@+id/username"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/password_input"
+            android:id="@+id/password_input"/>
 
-                android:singleLine="true"
-                android:inputType="textPassword"
-                android:id="@+id/password_edit"/>
-        </TableRow>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="35dp"
+            android:text="@string/remember"
+            android:textSize="20dp"
+            android:id="@+id/remember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/remember"
+            android:layout_below="@+id/password_input"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="35dp"
+            android:text="@string/forget_link"
+            android:textSize="19dp"
+            android:id="@+id/forget"
+            android:textColor="#5b9bd5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/remember"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_liuhuan"
+            android:text="@string/login"
+            android:textSize="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/login"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/forget"
+            android:background="@drawable/shape_liuhuan"
+            android:layout_toRightOf="@+id/login"
+            android:text="@string/register"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/register"/>
+
     </RelativeLayout>
+
 
 </RelativeLayout>
