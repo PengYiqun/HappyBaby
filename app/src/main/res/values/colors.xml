@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--每个人在自己区域内编码，原有的代码，我来修改-->
+    <!--每个人在自己区域内编码，原有的代码，我来修改-->
     <!-- liuhuan start-->
-
 
 
     <!-- liuhuan end-->
     <!-- pengyiqun start-->
 
-
+<color name="footer">#5B9Bd5</color>
     <!-- pengyiqun end-->
     <!-- tangliwen start-->
 
 
-
-
     <!-- tangliwen end-->
     <!-- xumuchen start-->
-
 
 
     <!-- xumuchen end-->
