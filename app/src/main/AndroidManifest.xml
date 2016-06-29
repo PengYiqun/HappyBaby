@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--这里别改-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.hh.happybaby">
-    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
     <application
         tools:replace="android:icon, android:theme"
         android:allowBackup="true"
@@ -11,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,5 @@
 <resources>
-    <!--每个人在自己区域内编码，原有的代码，我来修改-->
+    <!--每个人在自己区域内编码-->
     <!-- liuhuan start-->
 
 
@@ -17,8 +17,7 @@
 
     <!-- xumuchen end-->
     <!-- 贺逸峰 start-->
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">HappyBaby</string>
+    <string name="hhyifeng">hhyifeng</string>
     <!-- 贺逸峰 end-->
 </resources>

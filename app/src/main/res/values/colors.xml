@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<color name="colorPrimary">#3F51B5</color>
-<color name="colorPrimaryDark">#303F9F</color>
-<color name="colorAccent">#FF69B4</color>
-<color name="colorBlue">#1E88E5</color>
-<color name="colorBlack">#000000</color>
-<color name="colorWhite">#FFFFFF</color>
+    <!--每个人在自己区域内编码，原有的代码，我来修改-->
+    <!-- liuhuan start-->
+
+
+    <!-- liuhuan end-->
+    <!-- pengyiqun start-->
+
+
+    <!-- pengyiqun end-->
+    <!-- tangliwen start-->
+
+
+    <!-- tangliwen end-->
+    <!-- xumuchen start-->
+    <color name="colorBlue">#1E88E5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <!-- xumuchen end-->
+
+
+    <!-- 贺逸峰 start-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 贺逸峰 end-->
 </resources>
