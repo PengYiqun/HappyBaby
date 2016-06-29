@@ -14,8 +14,9 @@
 
     <!-- tangliwen end-->
     <!-- xumuchen start-->
-    <color name="colorBlue">#1E88E5</color>
-    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#5B9BD5</color>
+    <color name="colorLBlue">#99CCFF</color>
+    <color name="colorBlack">#444444</color>
     <color name="colorWhite">#FFFFFF</color>
     <!-- xumuchen end-->
 

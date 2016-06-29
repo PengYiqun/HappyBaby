@@ -23,8 +23,8 @@
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:background="@color/colorWhite"
+                android:textColor="@color/colorBlack"
                 android:layout_weight="1"
                 android:text="体检预约"
                 android:layout_marginLeft="0dip"/>
@@ -34,8 +34,8 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorWhite"
-                android:textColor="@color/colorBlack"
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="预防针预约" />
 
@@ -53,14 +53,14 @@
 
         </TableRow>
 
-            <ListView android:id="@+id/listView"
-                android:layout_centerHrizontal="true"
-                android:layout_below="@+id/button3"
-                android:maxLines="3"
-                android:listSelector="@color/colorLBlue"
-                android:layout_marginLeft="5dip"
-                android:layout_marginRight="5dip"
-                android:ellipsize="end"/>
+        <ListView android:id="@+id/listView"
+            android:layout_centerHrizontal="true"
+            android:layout_below="@+id/button3"
+            android:maxLines="3"
+            android:listSelector="@color/colorLBlue"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:ellipsize="end"/>
 
     </TableLayout>
 </RelativeLayout>
