@@ -1,8 +1,9 @@
 <resources>
     <!--每个人在自己区域内编码-->
     <!-- liuhuan start-->
-
-
+    <string name="welcome">在宝宝乐 \n记录宝宝成长点滴 \n呵护宝宝健康发育</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
 
     <!-- liuhuan end-->
     <!-- pengyiqun start-->

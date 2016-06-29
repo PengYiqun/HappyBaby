@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="welcome"
+        android:text="@string/welcome"
         android:textSize="20dp"
         android:textStyle="bold"
         android:lineSpacingExtra="7dp"
@@ -24,17 +24,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:background="@drawable/shape_liuhuan"
         android:layout_marginBottom="40dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="35dp"
         android:layout_below="@+id/textView">
 
-        <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/username"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
@@ -42,15 +42,13 @@
                 android:id="@+id/username" />
 
             <EditText
-
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-
+                android:text="@string/username"
 
                 android:singleLine="true"
                 android:inputType="textPassword"
-                android:id="@+id/password_edit"/>
-        </TableRow>
+                android:id="@+id/username_input"/>
     </RelativeLayout>
 
 </RelativeLayout>
