@@ -7,10 +7,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
+    <!-- 删了一行 -->
+    <!-- android:stretchRows="*" -->
     <TableLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:stretchRows="*"
+
         android:layout_alignParentTop="true">
 
         <TableRow
@@ -54,7 +56,7 @@
         </TableRow>
 
             <ListView android:id="@+id/listView"
-                android:layout_centerHrizontal="true"
+                android:layout_gravity="center_horizontal"
                 android:layout_below="@+id/button3"
                 android:maxLines="3"
                 android:listSelector="@color/colorLBlue"

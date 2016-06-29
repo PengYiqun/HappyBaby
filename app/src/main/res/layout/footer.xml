@@ -1,34 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="40dp"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content"
+    android:background="@color/footer"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
 
 
-    <Button
-        android:id="@+id/footer_babyknowledge"
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/btn_footer_babyknowledge"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:background="@color/footer" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/footer" />
+        android:layout_weight="1">
 
-    <Button
-        android:id="@+id/footer_baby"
+        <ImageButton
+            android:id="@+id/btn_footer_babyrecord"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:background="@color/footer" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/footer" />
+        >
 
-    <Button
+        <ImageButton
+            android:id="@+id/btn_footer_babyappointment"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@color/footer"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/footer" />
+        >
 
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/footer" />
+        <ImageButton
+            android:id="@+id/btn_footer_babyentertainment"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@color/footer"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
 
 </LinearLayout>
