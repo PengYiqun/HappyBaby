@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--每个人在自己区域内编码，原有的代码，我来修改-->
+    <!--每个人在自己区域内编码-->
     <!-- liuhuan start-->
 
 
@@ -21,11 +20,8 @@
 
 
     <!-- xumuchen end-->
-
-
     <!-- 贺逸峰 start-->
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <string name="app_name">HappyBaby</string>
+    <string name="hhyifeng">hhyifeng</string>
     <!-- 贺逸峰 end-->
 </resources>
