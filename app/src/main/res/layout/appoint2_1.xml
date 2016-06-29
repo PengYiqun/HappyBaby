@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><!--添加预防针预约界面，项目后面设置“体检预约”和“预防针预约”两个选项--><!--其它部分手动输入内容即可-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="日期"
+        android:id="@+id/textView2"
+        android:layout_weight="0.07"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="项目"
+        android:id="@+id/textView3"
+        android:layout_weight="0.07"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="内容"
+        android:id="@+id/textView4"
+        android:layout_weight="0.07"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="地点"
+        android:id="@+id/textView5"
+        android:layout_weight="0.07"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="30dip"
+        android:textSize="25sp"
+        android:textColor="@color/colorBBlack" />
+
+    <EditText
+        android:id="@+id/editView"
+        android:background="@drawable/shape_xmc"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="-200dip"
+        android:hint="请输入年/月/日/时间" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="@drawable/shape_xmc"
+        android:layout_height="50dip"
+        android:layout_width="200dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="5dip" />
+
+    <EditText
+        android:id="@+id/editView2"
+        android:background="@drawable/shape_xmc"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="5dip"
+        android:hint="请输入预约内容" />
+
+    <EditText
+        android:id="@+id/editView3"
+        android:background="@drawable/shape_xmc"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="125dip"
+        android:layout_marginTop="5dip"
+        android:hint="请输入地点" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorBBlack"
+        android:text="确定"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="100dip" />
+
+</LinearLayout>
