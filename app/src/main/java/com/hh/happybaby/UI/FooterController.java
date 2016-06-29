@@ -6,7 +6,7 @@ package com.hh.happybaby.UI;
  *
  */
 public class FooterController {
-    private
+
 
 
 }
